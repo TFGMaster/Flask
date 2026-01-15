@@ -1,0 +1,17 @@
+<!--this is normal HTML file. Hite auto syntax ny yet. Maybe B-cuse of ha 'tamplate' folder madhi aahe mhanun-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhoneBook Test</title>
+</head>
+<body>
+  <h3>Kya bolte company chal naam de</h3>
+  <form method="POST", action="/submit"><!--alwys use 'POST' for forms. so we can send data to backend or server.-->
+    <input type='text' name='Name' placeholder='Enter name'><!--Alwys use the 'name' atribute in your form.-->
+    <input type='text' name='ContactNum' minlength='9' inputmode="numeric" placeholder='Enter Contact Num'><!--hyni flask la samzte ki hy fields madhi konti value aahe (eg.username, Password).-->
+    <input type='submit' value='AddContact'>
+  </form>
+</body>
+</html>

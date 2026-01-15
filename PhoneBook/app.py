@@ -30,4 +30,3 @@ def add_contact():#function name should be any thing. for now its 'submit' we ca
     
     return render_template("home.html")
          
-    
